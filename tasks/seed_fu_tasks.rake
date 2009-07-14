@@ -37,7 +37,7 @@ namespace :db do
 
     potential_seed_files.each do |file|
       pretty_name = file.sub("#{RAILS_ROOT}/", "")
-      puts "\n== Seed from #{pretty_name} " + ("=" * (60 - (17 + File.split(file).last.length)))
+      puts "\n== Seed from #{pretty_name} "
       load file
     end
   end
