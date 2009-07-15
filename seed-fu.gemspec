@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
              "Rakefile",
              "init.rb",
              "lib/seed-fu.rb",
-             "lib/autotest/discover.rb",
              "rails/init.rb",
              "seed-fu.gemspec",
              "spec/schema.rb",
